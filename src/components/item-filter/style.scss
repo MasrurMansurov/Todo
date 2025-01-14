@@ -1,0 +1,22 @@
+.item-filter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    button {
+      margin: 0 2px;
+      padding: 7px 20px;
+      cursor: pointer;
+      border: none;
+      border-radius: 3px;
+  
+      &.active-filter {
+        background-color: #000;
+        color: white;
+      }
+  
+      &:not(.active-filter) {
+        background-color: #fff;
+        border: 1px solid black;
+      }
+    }
+  }

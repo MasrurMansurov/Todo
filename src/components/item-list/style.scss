@@ -1,0 +1,37 @@
+.main-list {
+    display: flex; 
+    justify-content: space-between; 
+    width: 650px; 
+    margin: auto; 
+    align-items: center;
+}
+
+.task {
+    text-decoration: none;
+  
+    &.completed {
+      text-decoration: line-through;
+    }
+}
+
+.changes {
+    display: flex; 
+    align-items: center; 
+    gap: 10px
+}
+
+.inactive {
+    color: red;
+
+    &.active {
+        color: green;
+    }
+}
+
+.btn-delete {
+    padding: 5px 20px; 
+    background-color: red; 
+    color: white; 
+    border: none; 
+    cursor: pointer
+}
