@@ -1,2 +1,2 @@
-# ToDo List with TypeScript
+# ToDo List - TypeScript
 
